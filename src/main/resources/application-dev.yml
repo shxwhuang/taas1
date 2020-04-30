@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /taas-dev
+  port: 7777
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql:///taas?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false
